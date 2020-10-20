@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisributedLockViaZooKeeper.ConsoleApp", "DisributedLockViaZooKeeper.ConsoleApp\DisributedLockViaZooKeeper.ConsoleApp.csproj", "{A0CEAF36-EBCB-4D78-A3C6-4C437C459873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{5E8DE3DF-B3C5-46F0-AAD1-8793A0085A8E}"
+ProjectSection(SolutionItems) = preProject
+	docker-compose.yml = docker-compose.yml
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisributedLockViaZooKeeper.Taxes.WepApi", "DisributedLockViaZooKeeper.Taxes.WepApi\DisributedLockViaZooKeeper.Taxes.WepApi.csproj", "{CC60AB27-5DD6-4273-8C4C-CD982057DF68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CEAF36-EBCB-4D78-A3C6-4C437C459873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CEAF36-EBCB-4D78-A3C6-4C437C459873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CEAF36-EBCB-4D78-A3C6-4C437C459873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CEAF36-EBCB-4D78-A3C6-4C437C459873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC60AB27-5DD6-4273-8C4C-CD982057DF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC60AB27-5DD6-4273-8C4C-CD982057DF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC60AB27-5DD6-4273-8C4C-CD982057DF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC60AB27-5DD6-4273-8C4C-CD982057DF68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B424DDF8-EDD4-49A8-AF34-35BD829CBD6E}
+	EndGlobalSection
+EndGlobal

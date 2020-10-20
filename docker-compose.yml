@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ZooKeeper1:
+    image: zookeeper
+    restart: always
+    hostname: zoo1
+    ports:
+      - 2181:2181
+      - 2888:2888
+      - 3888:3888
+      - 8080:8080
+
+  TaxService1:
+    image: tax-service
+    build: "./DisributedLockViaZooKeeper.Taxes.WepApi/"
+    ports:
+      - 8001:80
